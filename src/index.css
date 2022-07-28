@@ -29,8 +29,8 @@ code {
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 }
 .note{
-  background-image: linear-gradient(to top, #ffffff 0%, #f5f5efbd 100%);
- white-space: pre-wrap;
+  background-image: linear-gradient(to top, #ffffff 0%, #f5f5ef 100%);
+  white-space: pre-wrap;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
@@ -46,10 +46,10 @@ justify-content: space-between;
 textarea{
   border:none;
   resize: none;
-  background-image: linear-gradient(to top, #696b6a 0%, #dddfde 100%);
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
 }
 .note.new{
-  background-color: #f5f5efbd ;
+  background-color: #a5a597;
 }
 textarea:focus{
   outline: none;
@@ -58,8 +58,8 @@ textarea:focus{
   background-color: rgb(233, 233, 233);
   border:none;
   border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-  border:solid 4px #308d46;
+  padding: 5px 20px 5px 20px;
+  border:solid 2px #ee4807;
 }
 .save:hover{
   background-color: #308d46;
