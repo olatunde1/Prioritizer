@@ -15,6 +15,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .container{
   max-width: 960px;
@@ -59,11 +60,12 @@ textarea:focus{
   border:none;
   border-radius: 15px;
   padding: 5px 20px 5px 20px;
-  border:solid 2px #ee4807;
+  border:solid 2px red;
 }
 .save:hover{
-  background-color: #308d46;
+  background-color: #f5f5ef;
   cursor: pointer;
+  border: 2px solid red;
 }
 .delete-icon{
   cursor: pointer;
@@ -73,9 +75,9 @@ textarea:focus{
   align-items: center;
   background-color: rgb(233, 233, 233);
   border-radius: 10px;
-  padding: 1.5em;
-  margin-bottom: 10px;
-  border:solid 4px #308d46;
+  padding: 1em;
+  margin-bottom: 30px;
+  border:solid 2px red;
 }
 .search input{
   border: none;
